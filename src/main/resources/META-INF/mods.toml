@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[49,)"
+license="MIT"
+
+[[mods]]
+modId="fovbreaker"
+version="1.0.0"
+displayName="FOV Limit Breaker"
+description='''
+Break the vanilla FOV slider limit (30-110) and use any custom FOV from 1 to 179.
+Use the keybinds or the config file to change it.
+'''
+displayTest="IGNORE_SERVER_VERSION"
+
+[[dependencies.fovbreaker]]
+    modId="forge"
+    mandatory=true
+    versionRange="[49,)"
+    ordering="NONE"
+    side="CLIENT"
+
+[[dependencies.fovbreaker]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.4,1.21)"
+    ordering="NONE"
+    side="CLIENT"
